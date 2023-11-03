@@ -26,7 +26,7 @@ xkb_symbols "colemak" {
     key <AD07> { [            l,            L,             bar,          Lstroke ] };
     key <AD08> { [            u,            U,       ampersand,           Uacute ] };
     key <AD09> { [            y,            Y,            Down,       Udiaeresis ] };
-    key <AD10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
+    key <AD10> { [    semicolon,        colon,              Up,       Odiaeresis ] };
     key <AD11> { [  bracketleft,    braceleft,   guillemotleft,        0x1002039 ] };
     key <AD12> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
@@ -40,13 +40,13 @@ xkb_symbols "colemak" {
     key <AC07> { [            n,            N,       parenleft,        parenleft ] };
     key <AC08> { [            e,            E,       braceleft,           Eacute ] };
     key <AC09> { [            i,            I,           Right,           Iacute ] };
-    key <AC10> { [            o,            O,          dollar,           Oacute ] };
+    key <AC10> { [            o,            O,            Left,           Oacute ] };
     key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
 
     key <AB01> { [            z,            Z,              ae,               AE ] };
     key <AB02> { [            x,            X, dead_circumflex,       asciitilde ] };
     key <AB03> { [            c,            C,        ccedilla,         Ccedilla ] };
-    key <AB04> { [            v,            V,              oe,               OE ] };
+    key <AB04> { [            v,            V,          dollar,               OE ] };
     key <AB05> { [            b,            B,      dead_breve,       asciitilde ] };
     key <AB06> { [            k,            K,            plus,       asciitilde ] };
     key <AB07> { [            m,            M,           minus,       asciitilde ] };
