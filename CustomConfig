@@ -33,8 +33,8 @@ xkb_symbols "colemak" {
 
     key <AC01> { [            a,            A,          aacute,           Aacute ] };
     key <AC02> { [            r,            R,               2,       asciitilde ] };
-    key <AC03> { [            s,            S,               1,        0x1001e9e ] };
-    key <AC04> { [            t,            T,               0, dead_doubleacute ] };
+    key <AC03> { [            s,            S,            Down,        0x1001e9e ] };
+    key <AC04> { [            t,            T,              Up, dead_doubleacute ] };
     key <AC05> { [            d,            D,            none,       asciitilde ] };
     key <AC06> { [            h,            H,           equal,       asciitilde ] };
     key <AC07> { [            n,            N,       parenleft,        parenleft ] };
@@ -51,8 +51,8 @@ xkb_symbols "colemak" {
     key <AB06> { [            k,            K,            plus,       asciitilde ] };
     key <AB07> { [            m,            M,           minus,       asciitilde ] };
     key <AB08> { [        comma,         less,        asterisk,       asciitilde ] };
-    key <AB09> { [       period,      greater,   dead_abovedot,       asciitilde ] };
-    key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };
+    key <AB09> { [       period,      greater,               0,       asciitilde ] };
+    key <AB10> { [        slash,     question,         percent,       asciitilde ] };
     
     
     key <CAPS> { [         none,    BackSpace,       BackSpace,        BackSpace ] };
